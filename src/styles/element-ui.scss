@@ -1,0 +1,195 @@
+@import './font.scss';
+// 默认样式
+$softColor : #fdfaff;
+$deepColor : #e3d5f1;
+.el-table th,.el-table thead.is-group th.el-table__cell{
+    // background-color: #fdfaff;
+    background-color: $deepColor;
+    // background-image: linear-gradient(180deg,#e3d5f1, #fdfaff);
+    color:#713786
+  }
+
+  .el-table::before {
+    height: 0px !important;
+  }
+
+  .el-table--border, .el-table--group  {
+    border-top-width: 0px!important;
+    border-left-width: 0px!important;
+    border-right-width: 0px!important;
+    border-bottom-width: 0px!important;
+  }
+
+  .el-table--border::after, .el-table--group::after{
+    width: 0px !important;
+  }
+
+  .el-table th.el-table__cell.is-leaf{
+    border-width:0px;
+  }
+  
+  //hover样式
+  .el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell{
+    background-color:$softColor
+    // background-image: linear-gradient(180deg,#fdfaff,#e3d5f1, #fdfaff);
+  
+  }
+  //选中样式
+  .el-table__body tr.current-row>td.el-table__cell,.el-table--striped .el-table__body tr.el-table__row--striped.current-row td.el-table__cell{
+    background-color:$softColor
+  }
+  
+  // 条纹样式
+  .el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell{
+    background-color:$softColor;
+  }
+
+  .el-table__cell{
+    background-color: $softColor;
+  }
+
+  .el-table__row td:first-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    // border-radius: 20px;
+  }
+  .el-table__row td:last-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .el-table td.el-table__cell{
+    border-left-width: 0px  ;
+    border-right-width: 0px ;
+    border-bottom: 5px #fff solid;
+  }
+
+  .el-table__row:last-child  .el-table__cell{
+    border-bottom-width: 0px;
+  }
+  // .el-table__row{
+  //   margin-top: 20px !important;
+  //   border-bottom: 5px #fff solid;
+  // }
+
+  .el-table__body{
+      height: 100%;
+  }
+  .el-tag{
+    min-width: 135px;
+    text-align: center;
+    margin: 5px;
+  }
+
+  .source-ips .el-tag{
+    min-width: auto;
+    font-size: var(--middle-font-size);
+  }
+
+  .el-row{
+    margin-bottom: 20px;
+  }
+
+  .el-tabs__header{
+    margin: 0 !important;
+  }
+
+  .el-tabs__item.is-active{
+    color:#631fa9 !important;
+  }
+
+  .el-tabs__active-bar{
+    background-color:#631fa9 !important;
+  }
+
+  .el-tabs__nav-wrap::after{
+    height: 0;
+  }
+  .el-tabs--border-card>.el-tabs__content{
+    padding:0px !important;
+  }
+  .el-table .cell{
+    word-break: keep-all !important;
+  }
+
+  
+
+  .el-pager li.active{
+    color:#631fa9 !important;
+  }
+
+  .search-as-info-input .el-input__inner:focus{
+    border-color: #631fa9 !important;
+    border-radius: 5px !important;
+ }
+
+ .pagination{
+   border-width: 0px;
+ }
+ .el-dialog__body{
+  display: flex;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.ip-container .el-carousel__container{
+  height:25vh !important;
+}
+
+.selectStyle  .el-input__inner{
+  text-align: center;
+  font-weight: bold;
+}
+.prefix-input .el-input-group__prepend,.prefix-input .el-input-group--prepend  .el-input__inner{
+  border-radius: 0;
+}
+
+
+.el-submenu__title{
+  border-width: 0px !important;
+  font-weight: bold;
+  height: 100% !important; 
+  line-height: 72px !important; 
+  
+}
+
+.el-submenu{
+  height: 100%;
+}
+
+ul.el-menu--horizontal{
+  height: 72px;
+}
+
+.search-prefix-input .el-input-group__prepend {
+  padding: 0 10px !important;
+}
+
+// .search-prefix-input .el-input-group__append,.search-prefix-input .el-input-group__prepend{
+//   height: 38px;
+// }
+// .el-popper .popper__arrow,.el-popper .popper__arrow::after{
+//   display: none !important;
+// }
+
+// .el-popper[x-placement^=bottom]{
+//   border:#631fa9 2px solid;
+// }
+
+// .el-select .el-input.is-focus .el-input__inner{
+//   border:#631fa9 2px solid;
+//   border-image: linear-gradient(to right, #8f41e9, #578aef) 1;
+// }
+
+// .el-select .el-input__inner{
+//   border-width: 0px;
+// }
+
+.subscribe-container .el-tabs__item {
+  background-color: #fff;
+}
+
+.el-tabs--top .el-tabs__item.is-top:last-child {
+  margin-bottom: 1px;
+}
+

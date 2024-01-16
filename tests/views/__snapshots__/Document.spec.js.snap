@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Document.vue renders correctly 1`] = `
+<div><button type="button" class="el-button download-video el-button--default">
+    <!---->
+    <!----><span>Video for BGPWatch</span></button> <iframe src="https://www.cgtf.net/wp-content/uploads/2023/07/User-Manual-for-BGPWatch.pdf" style="height: 90vh; width: 100%;"></iframe></div>
+`;

@@ -1,0 +1,11 @@
+$minFontSize:12px;
+$middleFontSize:14px;
+$subTitleFontSize:20px;
+$maxFontSize:30px;
+
+:export {
+    minFontSize: $minFontSize;
+    middleFontSize: $middleFontSize;
+    maxFontSize: $maxFontSize;
+    subTitleFontSize:$subTitleFontSize;
+  }

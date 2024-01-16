@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IP2IPRoutingPath.vue renders correctly 1`] = `
+<div class="ip-path-container">
+  <div class="ip-path-header">
+    <div class="input-box">
+      <div class="ip-input">
+        <div>
+          <el-input-stub value="115.24.128.0/17" type="text" validateevent="true" class="input-class" style="width: 300px;"><template></template></el-input-stub>
+        </div>
+        <div>
+          <el-button-stub type="default" icon="" nativetype="button" round="true" class="search-btn"> Do search</el-button-stub>
+        </div>
+        <div>
+          <el-input-stub value="87.237.165.0/24" type="text" validateevent="true" class="input-class" style="width: 300px;"><template></template></el-input-stub>
+        </div>
+      </div>
+      <div class="example"><b>Example</b>: 2a0f:9340:10::/48 &lt;---&gt; 2001:7f8:e7::/48<br><b>Example</b>: 2.22.238.0/23 &lt;---&gt;
+        185.193.84.0/22
+      </div>
+    </div>
+  </div>
+  <div class="ip-path-graph">
+    <div class="empty-tip" style="display: none;">115.24.128.0/17 to 87.237.165.0/24 <br>No data found</div>
+    <chart-stub option="[object Object]" series="[object Object]" extraoption="[object Object]" extraseriesoption="[object Object]" classname="chart" chartid="r2l" width="100%" height="100%" watchseries="()=>{}" replacemerge=""></chart-stub>
+  </div>
+  <div class="ip-path-graph">
+    <div class="empty-tip" style="display: none;">87.237.165.0/24 to 115.24.128.0/17 <br>No data found</div>
+    <chart-stub option="[object Object]" series="[object Object]" extraoption="[object Object]" extraseriesoption="[object Object]" classname="chart" chartid="l2r" width="100%" height="100%" watchseries="()=>{}" replacemerge=""></chart-stub>
+  </div>
+</div>
+`;

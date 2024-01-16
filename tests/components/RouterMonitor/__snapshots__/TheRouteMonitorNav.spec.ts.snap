@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheRouteMonitorNav.vue renders correctly 1`] = `
+<div
+  class="navbar"
+>
+  <ul
+    class="el-menu--horizontal el-menu"
+    role="menubar"
+    style="background-color: rgb(255, 255, 255);"
+  >
+    <li
+      class="el-menu-item"
+      role="menuitem"
+      style="color: rgb(0, 0, 0); border-bottom-color: transparent; background-color: rgb(255, 255, 255); height: 43px;"
+      tabindex="0"
+    >
+      <img
+        height="100%"
+        src="../../assets/images/logo-row.svg"
+      />
+    </li>
+     
+    <li
+      class="el-menu-item"
+      role="menuitem"
+      style="color: rgb(0, 0, 0); border-bottom-color: transparent; background-color: rgb(255, 255, 255);"
+      tabindex="0"
+    >
+      <span>
+        Home
+      </span>
+    </li>
+    <li
+      aria-haspopup="true"
+      class="el-submenu"
+      role="menuitem"
+      tabindex="0"
+    >
+      <div
+        class="el-submenu__title"
+        style="border-bottom-color: transparent; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+      >
+        Anomaly
+        <i
+          class="el-submenu__icon-arrow el-icon-arrow-down"
+        />
+      </div>
+      <div
+        class="el-menu--horizontal"
+        style="display: none;"
+      >
+        <ul
+          class="el-menu el-menu--popup el-menu--popup-bottom-start"
+          role="menu"
+          style="background-color: rgb(255, 255, 255);"
+        >
+           
+          <li
+            class="el-menu-item"
+            role="menuitem"
+            style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            tabindex="-1"
+          >
+            Overview
+          </li>
+          <li
+            class="el-menu-item"
+            role="menuitem"
+            style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            tabindex="-1"
+          >
+            Anomaly
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li
+      class="el-menu-item"
+      role="menuitem"
+      style="color: rgb(0, 0, 0); border-bottom-color: transparent; background-color: rgb(255, 255, 255);"
+      tabindex="0"
+    >
+      <span>
+        DashBoard
+      </span>
+    </li>
+    <li
+      aria-haspopup="true"
+      class="el-submenu"
+      role="menuitem"
+      tabindex="0"
+    >
+      <div
+        class="el-submenu__title"
+        style="border-bottom-color: transparent; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+      >
+        RoutingPath
+        <i
+          class="el-submenu__icon-arrow el-icon-arrow-down"
+        />
+      </div>
+      <div
+        class="el-menu--horizontal"
+        style="display: none;"
+      >
+        <ul
+          class="el-menu el-menu--popup el-menu--popup-bottom-start"
+          role="menu"
+          style="background-color: rgb(255, 255, 255);"
+        >
+           
+          <li
+            class="el-menu-item"
+            role="menuitem"
+            style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            tabindex="-1"
+          >
+            Routing Path
+          </li>
+          <li
+            class="el-menu-item"
+            role="menuitem"
+            style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            tabindex="-1"
+          >
+            Reverse Routing Path
+          </li>
+          <li
+            class="el-menu-item"
+            role="menuitem"
+            style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            tabindex="-1"
+          >
+            Reverse Routing Path(TOPO)
+          </li>
+          <li
+            class="el-menu-item"
+            role="menuitem"
+            style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            tabindex="-1"
+          >
+            Bi-Routing Path
+          </li>
+          <li
+            class="el-menu-item"
+            role="menuitem"
+            style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            tabindex="-1"
+          >
+            JitterRoute
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li
+      aria-haspopup="true"
+      class="el-submenu"
+      role="menuitem"
+      tabindex="0"
+    >
+      <div
+        class="el-submenu__title"
+        style="border-bottom-color: transparent; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+      >
+        Tools
+        <i
+          class="el-submenu__icon-arrow el-icon-arrow-down"
+        />
+      </div>
+      <div
+        class="el-menu--horizontal"
+        style="display: none;"
+      >
+        <ul
+          class="el-menu el-menu--popup el-menu--popup-bottom-start"
+          role="menu"
+          style="background-color: rgb(255, 255, 255);"
+        >
+           
+          <li
+            class="el-menu-item"
+            role="menuitem"
+            style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            tabindex="-1"
+          >
+            Country/Region
+          </li>
+          <li
+            class="el-menu-item"
+            role="menuitem"
+            style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            tabindex="-1"
+          >
+            Anomaly-moas
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li
+      class="el-menu-item"
+      role="menuitem"
+      style="color: rgb(0, 0, 0); border-bottom-color: transparent; background-color: rgb(255, 255, 255);"
+      tabindex="0"
+    >
+      <span>
+        Subscribe
+      </span>
+    </li>
+    <li
+      aria-haspopup="true"
+      class="el-submenu"
+      role="menuitem"
+      tabindex="0"
+    >
+      <div
+        class="el-submenu__title"
+        style="border-bottom-color: transparent; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+      >
+        Doc
+        <i
+          class="el-submenu__icon-arrow el-icon-arrow-down"
+        />
+      </div>
+      <div
+        class="el-menu--horizontal"
+        style="display: none;"
+      >
+        <ul
+          class="el-menu el-menu--popup el-menu--popup-bottom-start"
+          role="menu"
+          style="background-color: rgb(255, 255, 255);"
+        >
+           
+          <li
+            class="el-menu-item"
+            role="menuitem"
+            style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            tabindex="-1"
+          >
+            Document
+          </li>
+          <li
+            class="el-menu-item"
+            role="menuitem"
+            style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+            tabindex="-1"
+          >
+            API Doc
+          </li>
+        </ul>
+      </div>
+    </li>
+     
+    <li
+      class="el-menu-item"
+      role="menuitem"
+      style="color: rgb(0, 0, 0); border-bottom-color: transparent; background-color: rgb(255, 255, 255); float: right;"
+      tabindex="0"
+    >
+      <span>
+        Register
+      </span>
+    </li>
+     
+    <li
+      class="el-menu-item"
+      role="menuitem"
+      style="color: rgb(0, 0, 0); border-bottom-color: transparent; background-color: rgb(255, 255, 255); float: right;"
+      tabindex="0"
+    >
+      <login
+        forgetfunc="function () { [native code] }"
+        loginfunc="function () { [native code] }"
+      />
+    </li>
+  </ul>
+   
+  <div
+    class="el-dialog__wrapper"
+    style="display: none;"
+  >
+    <div
+      aria-label="Personal Information"
+      aria-modal="true"
+      class="el-dialog"
+      role="dialog"
+      style="margin-top: 15vh; width: 600px;"
+    >
+      <div
+        class="el-dialog__header"
+      >
+        <span
+          class="el-dialog__title"
+        >
+          Personal Information
+        </span>
+        <button
+          aria-label="Close"
+          class="el-dialog__headerbtn"
+          type="button"
+        >
+          <i
+            class="el-dialog__close el-icon el-icon-close"
+          />
+        </button>
+      </div>
+      <!---->
+      <!---->
+    </div>
+  </div>
+   
+  <div
+    class="el-dialog__wrapper"
+    style="display: none;"
+  >
+    <div
+      aria-label="API KEY Setting"
+      aria-modal="true"
+      class="el-dialog"
+      role="dialog"
+      style="margin-top: 15vh; width: 600px;"
+    >
+      <div
+        class="el-dialog__header"
+      >
+        <span
+          class="el-dialog__title"
+        >
+          API KEY Setting
+        </span>
+        <button
+          aria-label="Close"
+          class="el-dialog__headerbtn"
+          type="button"
+        >
+          <i
+            class="el-dialog__close el-icon el-icon-close"
+          />
+        </button>
+      </div>
+      <!---->
+      <!---->
+    </div>
+  </div>
+</div>
+`;

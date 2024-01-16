@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventDetail should render correct contents 1`] = `
+<div class="routeMonitorDetail">
+  <div class="content">
+    <div class="basicblock">
+      <div class="left">
+        <div>
+          <div class="label low-level">low level</div>
+          <div class="info"><span>Possible Hijack Events</span></div>
+        </div>
+      </div>
+      <div class="right">
+        <div style="font-weight: bold; font-size: 18px;">209.16.0.0/18-hijack1680129743&nbsp;Possible Hijack Events</div>
+        <div style="display: flex; margin-top: 7px;">
+          <div class="first_column">
+            <div class="line"><span>Victim AS：</span> <span><a href="/#/dashBoard?asn=13347" target="_blank">13347</a></span></div>
+            <div class="line"><span>Victim Country：</span> <span>US ( United States )</span></div>
+            <div class="line"><span>Victim AS Name：</span> <span>MW-CABLE222</span></div>
+            <div class="line"><span>Start Time：</span> <span>2023-03-29 22:42:23</span></div>
+            <div class="line"><span>During Time：</span> <span>0:1:58</span></div>
+          </div>
+          <div class="second_column">
+            <div class="line"><span>Hijacker AS：</span> <span><a href="/#/dashBoard?asn=40861" target="_blank">40861</a></span></div>
+            <div class="line"><span>Hijacker Country：</span> <span>US (United States)</span></div>
+            <div class="line"><span>Hijacker AS Name：</span> <span>PARAD-40-ASN</span></div>
+            <div class="line"><span>End Time：</span> <span>2023-03-29 22:44:21</span></div>
+            <div class="line"><span>Time Zone：</span> <span>UTC</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="second_basicblock">
+      <div class="first_column second_row">
+        <!---->
+        <el-row-stub tag="div" type="flex" justify="start" align="top">
+          <el-col-stub span="2" tag="div" style="margin: 5px 0px;"><span>Reason：</span></el-col-stub>
+          <el-col-stub span="22" tag="div">
+            <div>
+              <el-tag-stub type="success" effect="light" class="el-icon-info">
+                possible hijack</el-tag-stub>
+            </div>
+          </el-col-stub>
+        </el-row-stub>
+        <el-row-stub tag="div" type="flex" justify="start" align="middle">
+          <el-col-stub span="2" tag="div"><span>Prefix Info：</span></el-col-stub>
+          <el-col-stub span="22" tag="div">
+            <el-tag-stub effect="light">209.16.0.0/18</el-tag-stub>
+          </el-col-stub>
+        </el-row-stub>
+        <el-row-stub tag="div" justify="start">
+          <el-col-stub span="2" tag="div" style="margin: 5px 0px;"><span>Website：</span></el-col-stub>
+          <el-col-stub span="22" tag="div">
+            <el-tag-stub effect="light" data-url="example.com" class="my-tag">
+              example.com</el-tag-stub>
+            <el-tag-stub effect="light" data-url="test.com" class="my-tag">
+              test.com</el-tag-stub>
+          </el-col-stub>
+        </el-row-stub>
+      </div>
+    </div>
+    <div>
+      <el-tabs-stub value="Event review" tabposition="top" class="tabs">
+        <el-tab-pane-stub label="Event review" name="Event review">
+          <keep-alive-stub>
+            <eventreplay-stub subdata="[object Object]"></eventreplay-stub>
+          </keep-alive-stub>
+        </el-tab-pane-stub>
+        <el-tab-pane-stub label="Comments" name="Comments">
+          <keep-alive-stub>
+            <eventdetailoperationlog-stub subdata="[object Object]"></eventdetailoperationlog-stub>
+          </keep-alive-stub>
+        </el-tab-pane-stub>
+      </el-tabs-stub>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organization-HTML test all event 1`] = `
+<div class="org-container">
+  <div class="search-bar el-row">
+    <div class="el-col el-col-24" col="24">
+      <div class="el-input el-input-group el-input-group--append el-input-group--prepend">
+        <div class="el-input-group__prepend">
+          <div class="el-select" style="width: 150px;">
+            <!---->
+            <div class="el-input el-input--suffix">
+              <!----><input type="text" readonly="readonly" autocomplete="off" placeholder="Select" id="searchSelect" class="el-input__inner">
+              <!----><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----><!----><!----><!----><!----></span>
+              <!----></span>
+              <!---->
+              <!---->
+            </div>
+            <div class="el-select-dropdown el-popper" style="display: none;">
+              <div class="el-scrollbar" style="display: none;">
+                <div class="el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default">
+                  <ul class="el-scrollbar__view el-select-dropdown__list">
+                    <!---->
+                    <li class="el-select-dropdown__item"><span>ASN</span></li>
+                    <li class="el-select-dropdown__item selected"><span>AS Name</span></li>
+                    <li class="el-select-dropdown__item"><span>Org Name</span></li>
+                  </ul>
+                </div>
+                <div class="el-scrollbar__bar is-horizontal">
+                  <div class="el-scrollbar__thumb" style="width: 0px; transform: translateX(0%); webkit-transform: translateX(0%);"></div>
+                </div>
+                <div class="el-scrollbar__bar is-vertical">
+                  <div class="el-scrollbar__thumb" style="height: 0px; transform: translateY(0%); webkit-transform: translateY(0%);"></div>
+                </div>
+              </div>
+              <p class="el-select-dropdown__empty">
+                No data
+              </p>
+            </div>
+          </div>
+        </div><input type="text" autocomplete="off" id="searchInput" placeholder="Please input as name" class="el-input__inner">
+        <!---->
+        <!---->
+        <div class="el-input-group__append"><button type="button" class="el-button el-button--default">
+            <!----><i class="el-icon-search"></i>
+            <!----></button></div>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div class="as-table-box">
+    <div class="as-table">
+      <div>
+        <!---->
+        <div class="transition el-row">
+          <div class="el-table el-table--fit el-table--striped el-table--border el-table--enable-row-hover" style="width: 100%; --text: 10;">
+            <div class="hidden-columns">
+              <!---->
+              <div subcomponent="[object Object]" rowformat="row => {
+          return row.asn;
+        }"></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="el-table__header-wrapper">
+              <table cellspacing="0" cellpadding="0" border="0" class="el-table__header">
+                <colgroup></colgroup>
+                <thead class="">
+                  <tr class=""></tr>
+                </thead>
+              </table>
+            </div>
+            <div class="el-table__body-wrapper is-scrolling-none">
+              <table cellspacing="0" cellpadding="0" border="0" class="el-table__body">
+                <colgroup></colgroup>
+                <tbody>
+                  <!---->
+                </tbody>
+              </table>
+              <div class="el-table__empty-block" style="height: 100%;"><span class="el-table__empty-text">No Data</span></div>
+              <!---->
+            </div>
+            <!---->
+            <!---->
+            <!---->
+            <!---->
+            <div class="el-table__column-resize-proxy" style="display: none;"></div>
+          </div>
+          <div class="pagination">
+            <div class="el-pagination"><button type="button" disabled="disabled" class="btn-prev"><i class="el-icon el-icon-arrow-left"></i></button>
+              <ul class="el-pager">
+                <li class="number active">1</li>
+                <!---->
+                <!---->
+                <!---->
+              </ul><button type="button" disabled="disabled" class="btn-next"><i class="el-icon el-icon-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="update-time">LastUpdate:</div>
+</div>
+`;

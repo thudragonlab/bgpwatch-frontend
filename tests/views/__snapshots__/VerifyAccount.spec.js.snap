@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VerifyAccount.vue renders correctly 1`] = `<div class="wait-title">Registering Please wait a moment...</div>`;

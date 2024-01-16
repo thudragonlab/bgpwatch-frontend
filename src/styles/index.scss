@@ -1,0 +1,142 @@
+@import './font.scss';
+@import './element-ui.scss';
+
+body {
+  width: 100%;
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  --min-font-size: #{$minFontSize};
+  --middle-font-size: #{$middleFontSize};
+  --max-font-size: #{$maxFontSize};
+  --subTitle-font-size: #{$subTitleFontSize};
+  --shadow-args:7px 6px 11px -5px #00000071;
+  --border-radius-deg:10px;
+  --animation-offset:10px;
+  --animation-during:1s;
+  --bg-linear-clicked-start-color:#fb775d;
+  --bg-linear-clicked-end-color:#f7a594;
+  --bg-linear-unclick-start-color:#7f5ac3;
+  --bg-linear-unclick-end-color:#af86d8;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+.component-container {
+  height: 100%;
+  margin: 0;
+  padding: 22px;
+  background-color: #f0f0f0;
+}
+
+.row-div {
+  display: flex;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.shadow {
+  border-radius: var(--border-radius-deg);
+  box-shadow: var(--shadow-args);
+}
+
+.panel-body {
+  padding: 5px;
+  // box-sizing: border-box;
+}
+
+.fade-in {
+  animation: fadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+// //----------//----------//----------//----------//----------//----------//----------//----------//----------
+
+// // The width/height of each of our "pixels".
+// $size: 1px;
+
+// // Colors
+// $t: transparent;
+// $black: #000;
+// $gray: #cdc9cf;
+// $dkgray: #a09da1;
+// $pink: #ffa6ed;
+// $red: red;
+// $fff: #fff;
+
+// $first: ($t, $t, $t, $black, $t, $t, $t, $t, $black);
+// $cat: (
+//   ($t, $t, $t, $t, $t, $black,$black, $black, $black, $t, $t, $t,$t, $t), // 1st Row
+//   ($t, $t, $t, $black, $black, $red,$red, $red, $red, $black, $black, $t,$t, $t), // 1st Row
+//   ($t, $t, $black, $red, $red, $red, $red, $red,$red, $red, $red, $black, $t,$t), // 1st Row
+//   ($t, $black, $red, $red, $red, $red, $red,$red, $red, $red, $red, $red,$black, $t), // 1st Row
+//   ($t, $black, $red, $red, $red, $red, $black,$black, $red, $red, $red, $red,$black, $t), // 1st Row
+//   ($black, $red, $red, $red, $red, $black, $fff,$fff, $black, $red, $red, $red,$red, $black), // 1st Row
+//   ($black, $black, $black, $black, $black, $fff, $fff,$fff, $fff, $black, $black, $black,$black, $black), // 1st Row
+//   ($black, $fff, $fff, $fff, $fff, $black, $fff,$fff, $black, $fff, $fff, $fff,$fff, $black), // 1st Row
+//   ($t, $black, $fff, $fff, $fff, $fff, $black,$black, $fff, $fff, $fff, $fff,$black, $t), // 1st Row
+//   ($t, $black, $fff, $fff, $fff, $fff, $fff,$fff, $fff, $fff, $fff, $fff,$black, $t), // 1st Row
+//   ($t, $t, $black, $fff, $fff, $fff, $fff, $fff,$fff, $fff, $fff, $black, $t,$t), // 1st Row
+//   ($t, $t, $t, $black, $black, $fff,$fff, $fff, $fff, $black, $black, $t,$t, $t), // 1st Row
+//   ($t, $t, $t, $t, $t, $black,$black, $black, $black, $t, $t, $t,$t, $t), // 1st Row
+
+//   // Additional rows
+// );
+
+// @function pixelize($colors, $size) {
+//   $result: '';
+//   $numRows: length($colors);
+
+//   @for $rowIndex from 1 through $numRows {
+//     $y: ($rowIndex - 1);
+//     $row: nth($colors, $rowIndex);
+//     $numCols: length($row);
+
+//     @for $cellIndex from 1 through $numCols {
+//       $x: ($cellIndex - 1);
+//       $color: nth($row, $cellIndex);
+
+//       $sep: ', ';
+
+//       @if $x==0 and $y==0 {
+//         $sep: '';
+//       }
+
+//       $result: $result+'#{$sep}#{$x * $size} #{$y * $size} #{$color}'
+//     }
+//   }
+
+//   $result: unquote($result);
+//   @return $result;
+// }
+
+// #cat {
+
+//   position: relative;
+//   width: calc(23 * #{$size}); // Pixel size * # of columns
+//   height: calc(18 * #{$size}); // Pixel size * # of rows
+//   margin: 1rem;
+
+//   &::after {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: $size;
+//     height: $size;
+//     box-shadow: pixelize($cat, $size);
+//     // box-shadow will be applied here
+//   }
+// }

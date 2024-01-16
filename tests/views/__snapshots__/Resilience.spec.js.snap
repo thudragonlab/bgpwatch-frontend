@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resilience renders correctly 1`] = `
+<div class="dashboard-container">
+  <div class="cone">
+    <div class="selector-box">
+      <div class="selector-box-suffix">
+        <div>Selector</div>
+      </div>
+      <el-cascader-stub placement="bottom-start" appendtobody="true" visiblearrow="true" arrowoffset="35" offset="0" boundariespadding="5" popperoptions="[object Object]" value="EU,AT" options="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" placeholder="country/region" filterable="true" separator=" / " debounce="300" beforefilter="function _default() {
+        return function () {};
+      }" class="selector"></el-cascader-stub>
+    </div>
+    <el-input-stub value="" type="text" validateevent="true" clearable="true" placeholder="eg:[10,) search cone; 4538 search asn" style="width: 500px;"><template></template>
+      <el-button-stub type="default" icon="el-icon-search" nativetype="button"></el-button-stub>
+    </el-input-stub>
+  </div>
+  <div class="grid-box">
+    <div class="topo-graph">
+      <div class="as-statistic"><span>AS in the region:851</span> <br> <span>AS in the graph:0</span> <br> <span>Link in the region:1798</span> <br> <span>Link in the graph:0</span></div>
+      <chart-stub option="[object Object]" series="" extraoption="[object Object]" extraseriesoption="[object Object]" classname="chart" chartid="line_123" width="100%" height="100vh" watchseries="()=>{}" replacemerge="" class="graph"></chart-stub>
+      <div class="el-loading-mask" style="display: none;">
+        <div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular">
+            <circle cx="50" cy="50" r="20" fill="none" class="path"></circle>
+          </svg>
+          <!---->
+        </div>
+      </div>
+    </div>
+    <div class="top-cone-as">
+      <div class="top-cone-as-title">Top 10 AS By cone</div>
+      <div data-index="0" class="top-cone-as-as-code top-cone-as-as-code-unclick">
+        AS9902
+        <div data-index="0" class="top-cone-as-as-code2">
+          NEOCOMISP-KH-AP
+        </div>
+        <div data-index="0" class="top-cone-as-as-code2">cone:46</div>
+      </div>
+      <div data-index="1" class="top-cone-as-as-code top-cone-as-as-code-unclick">
+        AS55329
+        <div data-index="1" class="top-cone-as-as-code2">
+          TELCOTECH-KH
+        </div>
+        <div data-index="1" class="top-cone-as-as-code2">cone:31</div>
+      </div>
+      <div data-index="2" class="top-cone-as-as-code top-cone-as-as-code-unclick">
+        AS38235
+        <div data-index="2" class="top-cone-as-as-code2">
+          MEKONGNET-ADC-AS-AP
+        </div>
+        <div data-index="2" class="top-cone-as-as-code2">cone:24</div>
+      </div>
+      <div data-index="3" class="top-cone-as-as-code top-cone-as-as-code-unclick">
+        AS59318
+        <div data-index="3" class="top-cone-as-as-code2">
+          SINET-KH
+        </div>
+        <div data-index="3" class="top-cone-as-as-code2">cone:12</div>
+      </div>
+      <div data-index="4" class="top-cone-as-as-code top-cone-as-as-code-unclick">
+        AS24492
+        <div data-index="4" class="top-cone-as-as-code2">
+          IIT-WICAM-AS-AP
+        </div>
+        <div data-index="4" class="top-cone-as-as-code2">cone:11</div>
+      </div>
+      <div data-index="5" class="top-cone-as-as-code top-cone-as-as-code-unclick">
+        AS38623
+        <div data-index="5" class="top-cone-as-as-code2">
+          VIETTELCAMBODIA-AS-AP
+        </div>
+        <div data-index="5" class="top-cone-as-as-code2">cone:7</div>
+      </div>
+      <div data-index="6" class="top-cone-as-as-code top-cone-as-as-code-unclick">
+        AS131207
+        <div data-index="6" class="top-cone-as-as-code2">
+          SINET-KH
+        </div>
+        <div data-index="6" class="top-cone-as-as-code2">cone:6</div>
+      </div>
+      <div data-index="7" class="top-cone-as-as-code top-cone-as-as-code-unclick">
+        AS45498
+        <div data-index="7" class="top-cone-as-as-code2">
+          SMART-AXIATA-KH
+        </div>
+        <div data-index="7" class="top-cone-as-as-code2">cone:5</div>
+      </div>
+      <div data-index="8" class="top-cone-as-as-code top-cone-as-as-code-unclick">
+        AS139628
+        <div data-index="8" class="top-cone-as-as-code2">
+          MEGATRUENET-AS-AP
+        </div>
+        <div data-index="8" class="top-cone-as-as-code2">cone:5</div>
+      </div>
+      <div data-index="9" class="top-cone-as-as-code top-cone-as-as-code-unclick">
+        AS17981
+        <div data-index="9" class="top-cone-as-as-code2">
+          CAMBOTECH-KH-AS
+        </div>
+        <div data-index="9" class="top-cone-as-as-code2">cone:3</div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

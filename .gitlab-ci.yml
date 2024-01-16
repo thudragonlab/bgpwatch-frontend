@@ -1,0 +1,75 @@
+####提示
+# 1.以下脚本设置的是master分支被合并时执行（设置为平常用来发版本的分支即可）
+# 2.版本自动化部署到nginx下
+# 3.执行yml脚本的runner名字设置的vue-runner1,即对应tags
+
+variables:
+  CI_JOB_STATUS: recursive
+
+
+cache: &global_cache
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - node_modules/
+
+stages: # Stages 表示构建阶段，这里有两个阶段 install, deploy
+- install
+- test
+- build
+
+    
+install-staging-pro: # Jobs 表示构建工作，表示某个 Stage 里面执行的工作。
+  stage: install
+  
+  cache:
+    <<: *global_cache
+    policy: push
+  tags:
+    - vue-bgpwatch-pro #runner执行器的名字,与注册runner时填写的tags保持一致
+  only: # 定义了只有在被merge到了master分支上 才会执行部署脚本。
+  - master
+  script:
+  - echo ${CI_COMMIT_REF_SLUG}
+  - echo "${PRIVATE_SSH_KEY}" | tr -d '\r' > ~/.ssh/id_rsa
+  - chmod 600 ~/.ssh/id_rsa
+  - sudo yarn
+  # - sudo cnpm install
+  artifacts: {}
+  
+
+
+test-staging-pro: # Jobs 表示构建工作，表示某个 Stage 里面执行的工作。
+  stage: test
+  
+  cache:
+    <<: *global_cache
+    policy: pull
+  tags:
+    - vue-bgpwatch-pro #runner执行器的名字,与注册runner时填写的tags保持一致
+  only: # 定义了只有在被merge到了master分支上 才会执行部署脚本。
+  - master
+  script:
+  - yarn run test
+  coverage: /All\sfiles.*?\s+(\d+.\d+)/
+  artifacts:
+    reports:
+      junit: junit.xml
+    paths:
+      - coverage/
+      - reports/
+
+
+build-staging-pro: # Jobs 表示构建工作，表示某个 Stage 里面执行的工作。
+  stage: build
+  cache:
+    <<: *global_cache
+    policy: pull
+    
+  tags:
+    - vue-bgpwatch-pro #runner执行器的名字,与注册runner时填写的tags保持一致
+  only: # 定义了只有在被merge到了master分支上 才会执行部署脚本。
+  - master
+  script:
+  - sudo npm run build
+  - sudo rm -rf /usr/local/nginx/html
+  - sudo mv ./dist/ /usr/local/nginx/html

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReverseRoutingPathD3.vue renders correctly 1`] = `
+<div class="reverse-route-path-container fade-in">
+  <div class="prefix-input">
+    <div>
+      <el-input-stub value="1.0.128.0/17" type="text" validateevent="true" placeholder="1.0.0.0"><template></template>
+        <el-button-stub type="default" icon="el-icon-search" nativetype="button"></el-button-stub>
+      </el-input-stub>
+    </div>
+    <div style="text-align: left; padding-right: 20px;">
+      <div>You can input an IP or prefix, such as 1.0.205.0, 1.0.205.0/24 or 2001:200::/32.</div>
+      <div>The system will search the best matched prefix and return the reverse routing tree.</div>
+    </div>
+  </div>
+  <div class="last-update">Last Update:1970-01-01</div>
+  <div class="d3-box">
+    <based3graph-stub d3id="myd3" links="[object Object],[object Object]" nodes="A,B,C" customerfunc="function () { [native code] }" moreaction="function () { [native code] }" options="[object Object]"></based3graph-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReverseRoutingPath.vue renders correctly 1`] = `
+<div class="reverse-route-path-container fade-in">
+  <div class="prefix-input">
+    <div>
+      <el-input-stub value="1.0.128.0/17" type="text" validateevent="true" placeholder="1.0.0.0"><template></template>
+        <el-button-stub type="default" icon="el-icon-search" nativetype="button"></el-button-stub>
+      </el-input-stub>
+    </div>
+    <div style="text-align: left; padding-right: 20px;">
+      <div>You can input an IP or prefix, such as 1.0.205.0, 1.0.205.0/24 or 2001:200::/32.</div>
+      <div>The system will search the best matched prefix and return the reverse routing tree.</div>
+    </div>
+  </div>
+  <el-row-stub tag="div" type="flex" justify="space-between">
+    <div class="rtree-image"><img src="" class="show-row" style="width: auto; height: 100%;"></div>
+    <!---->
+  </el-row-stub>
+</div>
+`;

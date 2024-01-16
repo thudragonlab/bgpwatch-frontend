@@ -1,0 +1,299 @@
+.home {
+  height: 100%;
+  min-width: 1248px;
+}
+header {
+  height: 370px;
+  //width: 100%;
+  background-image: url('../assets/images/home_background.png');
+  background-size: cover;
+  background-position: center;
+  //background-color: #1373e2;
+}
+nav {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1248px;
+  .logo {
+    //display: inline-block;
+    background: url('../assets/images/logo.png') no-repeat;
+    background-size: 100%;
+    height: 35px;
+    width: 35px;
+  }
+  .logo_title {
+    margin-left: 4px;
+    color: white;
+    span {
+      display: block;
+    }
+  }
+  .right {
+    margin-left: auto;
+    display: flex;
+    font-size: 14px;
+    .nav_item {
+      vertical-align: middle;
+      //text-align: center;
+    }
+    .route {
+      margin-left: 25px;
+    }
+    .address, .route {
+      width: 60px;
+      padding: 3px 0;
+    }
+    a:link, :visited {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+    }
+    .router-link-active:after {
+      content: "";
+      display: block;
+      margin: auto;
+      margin-top: 5px;
+      width: 30px;
+      height: 0px;
+      border: 1px solid white;
+      }
+    .basic {
+      margin-left: 40px;
+      button {
+        height: 25px;
+        width: 43px;
+        font-size: 13px;
+        color: white;
+        //padding: 1px 1px;
+        border: transparent;
+        background: rgba(33, 131, 197, 0.9);
+      }
+      button:first-of-type {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      button:last-of-type {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+    }
+  }
+}
+.caption {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.search {
+  margin: 0 auto;
+  width: 800px;
+  .search_input {
+    display: flex;
+  }
+  input {
+    height: 43px;
+    width: 90%;
+    padding: 0;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    vertical-align: bottom;
+  }
+  input:focus {
+    box-shadow: 0 0 8px rgb(85, 85, 85);
+  }
+  button {
+    height: 43px;
+    padding: 0;
+    width: 10%;
+    background-color: rgb(211, 139, 6);
+    color: white;
+    font-size: 20px;  //即可改变图标大小
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    vertical-align: bottom;
+  }
+  .hot {
+    margin-top: 30px;
+    display: flex;
+    text-align: left;
+    color: white;
+  }
+  .square {
+    //flex: 0 0 auto; // 默认 0 1 auto，1为flex中的flex-shrink属性，1为开启收缩。或通过下面的方式
+    flex: 0 0 59px;
+    display: inline-block;
+    font-size: 16px;
+    width: 56px;
+    height: 51px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 32px;
+    padding-top: 6px;
+    padding-left: 2px;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 23px;
+    background: rgba(255, 255, 255, 0.16);
+  }
+  .word {
+    //width: 572px;
+    li {
+      list-style: none;
+      display: inline;
+      font-size: 14.5px;
+      a {
+        display: inline-block;
+        color: white;
+        padding: 0 6px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+.content {
+  margin: 0 auto;
+  width: 1248px;
+  display: flex;
+  flex-direction: column;
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .row:first-of-type {
+    margin-top: 40px;
+    margin-bottom: 5px;
+  }
+  .tab {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    span {
+      font-size: 20px;
+      i {
+        vertical-align: text-bottom; // 把元素的底端与父元素字体的底端对齐。
+      }
+    }
+    .el-switch /deep/ span {
+      font-size: 15px;
+    }
+    .el-switch /deep/ .el-switch__core {
+      background: DodgerBlue;
+      border-color: DodgerBlue;
+      border-radius: 12px;
+      width: 47px;
+      height: 22px;
+    }
+    .is-checked /deep/ .el-switch__core:after {
+      margin-left: -19px;
+    }
+    .el-switch /deep/ .el-switch__core:after {
+      width: 18.4px;
+      height: 18.4px;
+    }
+  }
+  a:first-of-type {
+    margin-right: 10px;
+  }
+  a:last-of-type {
+    margin-left: 10px;
+  }
+  .active:after {
+    content: "";
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+    width: 55px;
+    height: 0.5px;
+    background: rgb(146, 146, 146);
+    //color: rgb(95, 95, 95);
+    border: 1px solid rgb(146, 146, 146);
+  }
+  .block {
+    width: 18%;
+    height: 70px;
+    // border: 1px solid rgb(216, 216, 216);
+    box-shadow: 0 0 6px rgb(216, 216, 216);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    .report {
+      text-align: left;
+    }
+    span {
+      //display: block;
+      font-size: 14px;
+      line-height: 23px;
+    }
+  }
+  .row_rank {
+    display: flex;
+    flex-wrap: wrap;
+    //width: 100%;
+  }
+  .rank {
+    width: 32%;
+    margin: 2% 0;
+    height: 410px;
+    box-shadow: 0 0 6px rgb(216, 216, 216);
+  }
+  .rank:nth-of-type(3n+2) { // nth-of-type(3n+2)也是一样的,child只能是上一级的子元素
+    margin: 0 2% 2% 2%;
+  }
+}
+.rank {
+  .title {
+    padding: 5% 20px 0 19px;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    iframe {
+      border: none;
+    }
+    .title-one {
+      margin-right: auto;
+      margin-left: 15px;
+      font-size: 18px;
+    }
+    .title-two {
+      color: rgb(109, 109, 109);
+      margin-left: auto;
+      cursor: pointer;
+      img {
+        vertical-align: text-bottom;
+        margin-left: 3px;
+      }
+    }
+  }
+  .list {
+    padding: 5% 20px 4% 18px;
+  }
+  li {
+    list-style: none;
+    margin-bottom: 4.2%;
+    font-size: 15.5px;
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    span {
+      display: inline-block;
+    }
+    .index {
+      font-weight: bold;
+      color: rgb(158, 158, 158);
+      width: 20px;
+    }
+    .item {
+      margin-left: 24px;
+    }
+    .number {
+      margin-left:auto;
+    }
+  }
+}

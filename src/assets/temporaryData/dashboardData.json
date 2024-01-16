@@ -1,0 +1,318 @@
+{
+    "peer_count": 3,
+    "ipv6_table_size": 32759,
+    "ipv4_table_size": 28563,
+    "nexthop_ip_count": 4,
+    "avg_as_path_length": 4.69,
+    "top_n_peers": [
+      {
+        "asn": 24575,
+        "count": 5,
+        "name": "DRAGONLAB-AS-AP DRAGONLAB"
+      },
+      {
+        "asn": 4538,
+        "count": 5,
+        "name": "ERX-CERNET-BKB China Education and Research Network Center"
+      },
+      {
+        "asn": 4134,
+        "count": 3,
+        "name": "CHINANET-BACKBONE No.31"
+      }
+    ],
+    "cidr_breakdown": [
+      {
+        "mask": 0,
+        "count": 1,
+        "ip_version": 4
+      },
+      {
+        "mask": 9,
+        "count": 1,
+        "ip_version": 4
+      },
+      {
+        "mask": 10,
+        "count": 2,
+        "ip_version": 4
+      },
+      {
+        "mask": 11,
+        "count": 1,
+        "ip_version": 4
+      },
+      {
+        "mask": 12,
+        "count": 10,
+        "ip_version": 4
+      },
+      {
+        "mask": 13,
+        "count": 18,
+        "ip_version": 4
+      },
+      {
+        "mask": 14,
+        "count": 41,
+        "ip_version": 4
+      },
+      {
+        "mask": 15,
+        "count": 134,
+        "ip_version": 4
+      },
+      {
+        "mask": 16,
+        "count": 2074,
+        "ip_version": 4
+      },
+      {
+        "mask": 17,
+        "count": 468,
+        "ip_version": 4
+      },
+      {
+        "mask": 18,
+        "count": 768,
+        "ip_version": 4
+      },
+      {
+        "mask": 19,
+        "count": 914,
+        "ip_version": 4
+      },
+      {
+        "mask": 20,
+        "count": 2274,
+        "ip_version": 4
+      },
+      {
+        "mask": 20,
+        "count": 5,
+        "ip_version": 6
+      },
+      {
+        "mask": 21,
+        "count": 1633,
+        "ip_version": 4
+      },
+      {
+        "mask": 21,
+        "count": 1,
+        "ip_version": 6
+      },
+      {
+        "mask": 22,
+        "count": 2219,
+        "ip_version": 4
+      },
+      {
+        "mask": 22,
+        "count": 1,
+        "ip_version": 6
+      },
+      {
+        "mask": 23,
+        "count": 3287,
+        "ip_version": 4
+      },
+      {
+        "mask": 23,
+        "count": 4,
+        "ip_version": 6
+      },
+      {
+        "mask": 24,
+        "count": 13171,
+        "ip_version": 4
+      },
+      {
+        "mask": 24,
+        "count": 8,
+        "ip_version": 6
+      },
+      {
+        "mask": 25,
+        "count": 203,
+        "ip_version": 4
+      },
+      {
+        "mask": 25,
+        "count": 1,
+        "ip_version": 6
+      },
+      {
+        "mask": 26,
+        "count": 106,
+        "ip_version": 4
+      },
+      {
+        "mask": 26,
+        "count": 2,
+        "ip_version": 6
+      },
+      {
+        "mask": 27,
+        "count": 359,
+        "ip_version": 4
+      },
+      {
+        "mask": 27,
+        "count": 3,
+        "ip_version": 6
+      },
+      {
+        "mask": 28,
+        "count": 510,
+        "ip_version": 4
+      },
+      {
+        "mask": 28,
+        "count": 28,
+        "ip_version": 6
+      },
+      {
+        "mask": 29,
+        "count": 231,
+        "ip_version": 4
+      },
+      {
+        "mask": 29,
+        "count": 999,
+        "ip_version": 6
+      },
+      {
+        "mask": 30,
+        "count": 105,
+        "ip_version": 4
+      },
+      {
+        "mask": 30,
+        "count": 93,
+        "ip_version": 6
+      },
+      {
+        "mask": 31,
+        "count": 3,
+        "ip_version": 4
+      },
+      {
+        "mask": 31,
+        "count": 37,
+        "ip_version": 6
+      },
+      {
+        "mask": 32,
+        "count": 30,
+        "ip_version": 4
+      },
+      {
+        "mask": 32,
+        "count": 4667,
+        "ip_version": 6
+      },
+      {
+        "mask": 33,
+        "count": 747,
+        "ip_version": 6
+      },
+      {
+        "mask": 34,
+        "count": 545,
+        "ip_version": 6
+      },
+      {
+        "mask": 35,
+        "count": 214,
+        "ip_version": 6
+      },
+      {
+        "mask": 36,
+        "count": 1163,
+        "ip_version": 6
+      },
+      {
+        "mask": 37,
+        "count": 209,
+        "ip_version": 6
+      },
+      {
+        "mask": 38,
+        "count": 271,
+        "ip_version": 6
+      },
+      {
+        "mask": 39,
+        "count": 143,
+        "ip_version": 6
+      },
+      {
+        "mask": 40,
+        "count": 1456,
+        "ip_version": 6
+      },
+      {
+        "mask": 41,
+        "count": 117,
+        "ip_version": 6
+      },
+      {
+        "mask": 42,
+        "count": 612,
+        "ip_version": 6
+      },
+      {
+        "mask": 43,
+        "count": 277,
+        "ip_version": 6
+      },
+      {
+        "mask": 44,
+        "count": 2430,
+        "ip_version": 6
+      },
+      {
+        "mask": 45,
+        "count": 300,
+        "ip_version": 6
+      },
+      {
+        "mask": 46,
+        "count": 1037,
+        "ip_version": 6
+      },
+      {
+        "mask": 47,
+        "count": 986,
+        "ip_version": 6
+      },
+      {
+        "mask": 48,
+        "count": 16338,
+        "ip_version": 6
+      },
+      {
+        "mask": 56,
+        "count": 20,
+        "ip_version": 6
+      },
+      {
+        "mask": 64,
+        "count": 44,
+        "ip_version": 6
+      },
+      {
+        "mask": 128,
+        "count": 1,
+        "ip_version": 6
+      }
+    ],
+    "communities": [],
+    "peers": [],
+    "customers": [],
+    "customer_count": 0,
+    "customer_ipv4_prefixes": 0,
+    "customer_ipv6_prefixes": 0,
+    "timestamp": "2021-11-15 12:13:19 GMT"
+  }

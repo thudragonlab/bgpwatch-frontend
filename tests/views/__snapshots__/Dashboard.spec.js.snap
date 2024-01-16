@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard.vue should render correct contents 1`] = `
+<div class="dashboard-container fade-in">
+  <div class="sticky-div hidden-search-bar">
+    <el-input-stub value="4538" type="text" validateevent="true" placeholder="You can search by AS number, AS name, organization name" class="search-input">
+      <el-button-stub type="default" icon="el-icon-search" nativetype="button"></el-button-stub>
+    </el-input-stub>
+  </div>
+  <el-row-stub tag="div" justify="start" id="search-row" class="row-cc">
+    <el-col-stub span="9" tag="div" class="show-input" style="text-align: left;">
+      <el-input-stub value="4538" type="text" validateevent="true" placeholder="You can search by AS number, AS name, organization name" class="search-input">
+        <el-button-stub type="default" icon="el-icon-search" nativetype="button"></el-button-stub>
+      </el-input-stub>
+    </el-col-stub>
+    <el-col-stub span="15" tag="div" class="last-update">
+      <div style="text-align: left;">You can search by AS number, AS name, or organization name.</div>
+      <div>Last Update:1970-01-01</div>
+    </el-col-stub>
+  </el-row-stub>
+  <!---->
+  <el-row-stub tag="div" justify="start">
+    <el-tabs-stub type="border-card" value="Basic" tabposition="top" stretch="true" class="tab-list">
+      <el-tab-pane-stub label="Basic" name="Basic">
+        <asinfotab-stub param="[object Object]"></asinfotab-stub>
+      </el-tab-pane-stub>
+      <el-tab-pane-stub label="IPv4 Peers" name="IPv4 Peers" lazy="true">
+        <iptab-stub param="[object Object]"></iptab-stub>
+      </el-tab-pane-stub>
+      <el-tab-pane-stub label="IPv6 Peers" name="IPv6 Peers" lazy="true">
+        <iptab-stub param="[object Object]"></iptab-stub>
+      </el-tab-pane-stub>
+      <el-tab-pane-stub label="Whois" name="Whois" lazy="true">
+        <dashboardwhoistab-stub param="[object Object]"></dashboardwhoistab-stub>
+      </el-tab-pane-stub>
+    </el-tabs-stub>
+  </el-row-stub>
+</div>
+`;
